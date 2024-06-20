@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game-Project.Common", "Game-Project.Common\Game-Project.Common.csproj", "{746CEAE4-4F36-4D97-B352-59DC60A04F00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game-Project.SQL", "Game-Project.SQL\Game-Project.SQL.csproj", "{1F266F6F-032E-4910-BC9E-85F389E6EC3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{746CEAE4-4F36-4D97-B352-59DC60A04F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{746CEAE4-4F36-4D97-B352-59DC60A04F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{746CEAE4-4F36-4D97-B352-59DC60A04F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F266F6F-032E-4910-BC9E-85F389E6EC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F266F6F-032E-4910-BC9E-85F389E6EC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F266F6F-032E-4910-BC9E-85F389E6EC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F266F6F-032E-4910-BC9E-85F389E6EC3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

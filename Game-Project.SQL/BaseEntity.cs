@@ -3,9 +3,9 @@ using Game_Project.Common;
 
 namespace Game_Project.SQL
 {
-    public abstract class BaseEntity : IEntity<int>
+    public abstract class BaseEntity : IEntity<Ulid>
     {
         [Key]
-        public int Id { get; set; }
+        public Ulid Id { get; set; } = Ulid.NewUlid();
     }
 }

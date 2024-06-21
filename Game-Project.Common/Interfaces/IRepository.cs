@@ -1,4 +1,4 @@
-﻿namespace Game_Project.Common;
+﻿namespace Game_Project.Common.Interfaces;
 
 public interface IRepository<TEntity, TId> where TEntity : IEntity<TId>
 {

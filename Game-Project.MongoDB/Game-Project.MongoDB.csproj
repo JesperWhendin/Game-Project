@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Game_Project.SQL</RootNamespace>
+    <RootNamespace>Game_Project.MongoDB</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ulid" Version="1.3.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.26.0" />
   </ItemGroup>
 
   <ItemGroup>

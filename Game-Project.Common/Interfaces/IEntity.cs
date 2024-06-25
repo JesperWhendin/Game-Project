@@ -1,4 +1,4 @@
-﻿namespace Game_Project.Common;
+﻿namespace Game_Project.Common.Interfaces;
 
 public interface IEntity<T>
 {

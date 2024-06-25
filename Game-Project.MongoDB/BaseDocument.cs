@@ -1,4 +1,4 @@
-﻿using Game_Project.Common;
+﻿using Game_Project.Common.Interfaces;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 

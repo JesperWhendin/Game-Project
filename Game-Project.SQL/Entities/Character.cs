@@ -1,9 +1,8 @@
 ﻿using Game_Project.SQL.AbstractClasses;
-using Game_Project.SQL.Interfaces;
 
 namespace Game_Project.SQL.Entities;
 
-public class Character : BaseEntity, ICombatStats
+public class Character : BaseStats
 {
     
     public string Name { get; set; }

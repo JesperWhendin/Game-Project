@@ -1,9 +1,8 @@
 ﻿using Game_Project.SQL.AbstractClasses;
-using Game_Project.SQL.Interfaces;
 
 namespace Game_Project.SQL.Entities;
 
-public class Monster : BaseEntity, ICombatStats
+public class Monster : BaseStats
 {
     public string Name { get; set; } = default!;
     public string Description { get; set; } = default!;

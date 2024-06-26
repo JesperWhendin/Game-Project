@@ -1,6 +1,6 @@
-﻿namespace Game_Project.SQL.Interfaces;
+﻿namespace Game_Project.SQL.AbstractClasses;
 
-public interface ICombatStats
+public abstract class BaseStats : BaseEntity
 {
     public double Health { get; set; }
     public double Endurance { get; set; }
